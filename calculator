@@ -8,12 +8,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="background">
-        <p>This is div.</p>
-        <div class="red circle" onclick="alert('I am red circle!')"></div>
-        <div class="yellow circle"></div>
-        <div class="green circle"></div>
+    <div class="player1">
+        <div class="header_container">
+            <h1>Player1</h1>
+
+            <div>
+                <button class="js-refresh">Atjaunot rezultātu</button>
+                <button class="js-reset">Reset</button>
+            </div>
+        </div>
+        
+        <div class="score_container">
+            <h1>Total</h1>
+            <button class="js-minus">Minus</button>
+            <h2 class="js-total-result">0</h2>
+            <button class="js-plus">plus</button>
+        </div>
+        
+        <div class="move_container">
+            <h1>This move</h1>
+            <button class="js-minus-single-move">Minus</button>
+            <h2 class="js-answer-single-move">0</h2>
+            <button class="js-plus-single-move">plus</button>
+        </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>
